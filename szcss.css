@@ -1,3 +1,11 @@
+/* Variable definitions
+-----------------------
+<Variable name="bodybackground" description="Background" type="background" color="#0a0a0a" default="$(color) url() repeat fixed top left" value="$(color) url() repeat fixed top left"/>
+<Variable name="maincolor" description="Primary Color" type="color" default="#54a8d0"  value="#54a8d0"/>
+<Variable name="maindarkcolor" description="Primary Dark Color" type="color" default="#000000"  value="#000000"/>
+<Variable name="footercolor" description="Footer Background Color" type="color" default="#fff"  value="#ffffff"/>
+-----------------------
+*/
 html,body,.section,.widget,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,figure {
     margin: 0;
     padding: 0}
