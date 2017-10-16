@@ -72,7 +72,7 @@ ul ul,ol ol {
 abbr.published.timeago {
     text-decoration: none}
 .post-body a,.post-body a:link,.post-body a:visited {
-    color: $maincolor;
+    color: #007bfd;
     font-weight: bold}
 h2.date-header,h4.date-header {
     display: none;
@@ -100,14 +100,14 @@ img {
 .status-msg-wrap {
     display: none}
 a:hover {
-    color: $maincolor}
+    color: #007bfd}
 body {
-    color: $maindarkcolor;
+    color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: normal;
     line-height: 21px;
-    background: $bodybackground}
+    background: #0a0a0a}
 #outer-wrapper {
     max-width: 1100px;
     margin: 0 auto;
@@ -137,7 +137,7 @@ body {
     position: relative;
     overflow: hidden;
     min-height: 40px;
-    color: $maindarkcolor;
+    color: #fff;
     margin: 0 auto;
     border-bottom: 1px solid rgba(0,0,0,0.12)}
 .top-bar-social,.bottom-bar-social {
@@ -169,7 +169,7 @@ body {
     height: 30px;
     line-height: 30px;
     font-size: 12px;
-    color: $maindarkcolor;
+    color: #fff;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
@@ -242,7 +242,7 @@ body {
 .top-bar-social .email:before,.bottom-bar-social .email:before {
     content: "\f0e0"}
 .top-bar-social ul#social a:hover,.bottom-bar-social ul#social a:hover {
-    color: $maincolor;
+    color: #007bfd;
     opacity: 1}
 .top-bar-menu {
     float: left;
@@ -252,7 +252,7 @@ body {
 #header-wrapper {
     background: #121212}
 #header-wrappers {
-    color: $maindarkcolor;
+    color: #fff;
     padding: 20px 0 20px;
     margin: 0 auto}
 #header-inner {
@@ -322,7 +322,7 @@ ul#nav {
     padding: 0;
     margin: 0}
 #menu ul > li.hub-home {
-    background: $maincolor}
+    background: #007bfd}
 #menu ul > li.hub-home a:before {
     content: "\f015";
     font-family: Fontawesome;
@@ -384,7 +384,7 @@ ul#nav {
 #menu ul li.parent ul li:after,#menu ul li: last-child:after {
     display: none}
 #menu ul > li:hover {
-    background-color: $maincolor}
+    background-color: #007bfd}
 #menu ul > li > ul > li a {
     font-size: 11px;
     display: block;
@@ -467,7 +467,7 @@ article {
 .post h2 a {
     color: #fff}
 .post h2 a:hover {
-    color: $maincolor}
+    color: #007bfd}
 .index .post h2,.archive .post h2 {
     margin: 0 0 10px;
     padding: 0;
@@ -528,7 +528,7 @@ article {
     top: 0;
     left: 0;
     padding: 3px 6px;
-    background: $maincolor;
+    background: #007bfd;
     color: #fff;
     font-size: 10px;
     text-transform: uppercase;
@@ -598,7 +598,7 @@ article {
     color: #a1a1a1;
     font-weight: 600}
 #meta-post a:hover,#meta-post abbr:hover {
-    color: $maincolor}
+    color: #007bfd}
 #meta-post .auth-meta i {
     margin-left: 0}
 #meta-post i {
@@ -618,7 +618,7 @@ article {
     border-bottom: 1px solid rgba(0,0,0,0.12);
     border-top: 1px solid rgba(0,0,0,0.12)}
 .post-meta a,.post-meta abbr {
-    color: $maincolor;
+    color: #007bfd;
     font-weight: 500}
 .post-meta i {
     margin-left: 5px;
@@ -672,7 +672,7 @@ article {
     padding: 0;
     text-align: center}
 .showpageNum a,.showpage a,#blog-pager-newer-link a,#blog-pager-older-link a {
-    color: $maindarkcolor;
+    color: #fff;
     font-size: 16px;
     font-weight: 700;
     overflow: hidden;
@@ -705,7 +705,7 @@ article {
     border: 0}
 .showpageNum a:hover,.showpage a:hover,#blog-pager-newer-link a:hover,#blog-pager-older-link a:hover {
     decoration: none;
-    color: $maincolor}
+    color: #007bfd}
 .showpageOf {
     color: #151515;
     font-size: 14px;
@@ -723,7 +723,7 @@ article {
     text-decoration: none;
     float: left}
 #post-pager .blog-pager-older-link:hover,#post-pager .blog-pager-newer-link:hover {
-    color: $maincolor;
+    color: #007bfd;
     background: inherit}
 #post-pager {
     clear: both;
@@ -740,7 +740,7 @@ article {
     border: 0;
     text-align: right;
     background: none;
-    color: $maindarkcolor}
+    color: #fff}
 #post-pager .blog-pager-newer-link {
     border: 0;
     text-align: left}
@@ -752,7 +752,7 @@ article {
     font-weight: 700;
     letter-spacing: 1px;
     font-size: 13px;
-    color: $maincolor;
+    color: #007bfd;
     text-transform: uppercase}
 #post-pager a span {
     text-transform: capitalize;
@@ -766,7 +766,7 @@ article {
     color: #fff;
     padding: 3px 8px;
     font-size: 13px;
-    background-color: $maincolor}
+    background-color: #007bfd}
 .item .post-footer .share-box .post-labels a {
     color: $textcolor;
     padding: 3px 8px;
@@ -818,7 +818,7 @@ article {
     content: '';
     width: 100%;
     height: 2px;
-    background-color: $maindarkcolor;
+    background-color: #000;
     top: 10px;
     z-index: 0}
 .Related-title span {
@@ -943,7 +943,7 @@ h4#comment-post-message {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    background-color: $maincolor;
+    background-color: #007bfd;
     color: #fff;
     padding: 12px 20px;
     margin-left: 10px}
@@ -1028,9 +1028,9 @@ h4#comment-post-message {
     box-sizing: border-box;
     margin: 0}
 .comments .comments-content .inline-thread .comment-block {
-    border-color: $maincolor}
+    border-color: #007bfd}
 .comments .comments-content .inline-thread .comment-block:before {
-    border-color: transparent $maincolor transparent transparent}
+    border-color: transparent #007bfd transparent transparent}
 .comments .comments-content .user {
     letter-spacing: 0.5px;
     font-weight: 500}
@@ -1038,7 +1038,7 @@ h4#comment-post-message {
     display: inline}
 .comments .comments-content .icon.blog-author:after {
     content: "Author";
-    background: $maincolor;
+    background: #007bfd;
     font-family: 'PT Sans Narrow', sans-serif;
     color: #fff;
     font-size: 11px;
@@ -1252,15 +1252,15 @@ select#BlogArchive1_ArchiveMenu {
     height: 35px;
     border: 0;
     background-image: none;
-    background-color: $maincolor !important;
+    background-color: #007bfd !important;
     cursor: pointer;
     font-style: normal;
     font-weight: 400}
 .contact-form-name:focus,.contact-form-email:focus,.contact-form-email-message:focus {
-    border-color: $maincolor;
+    border-color: #007bfd;
     box-shadow: none}
 .contact-form-name:hover,.contact-form-email:hover,.contact-form-email-message:hover {
-    border-color: $maincolor}
+    border-color: #007bfd}
 .contact-form-button-submit:hover {
     background-color: #303030;
     background-image: none;
@@ -1294,12 +1294,12 @@ select#BlogArchive1_ArchiveMenu {
     margin: 0 0 2px;
     padding: 0}
 .ty-bonus .ty-bonos-entry a {
-    color: $maindarkcolor;
+    color: #fff;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.5em}
 .ty-bonus .ty-bonos-entry a:hover {
-    color: $maincolor}
+    color: #007bfd}
 .ty-bonus .ty-thumb-bonos:hover .tyimg-lay {
     background-color: rgba(40, 35, 40, 0.3)}
 .yard-auth-ty {
@@ -1375,7 +1375,7 @@ select#BlogArchive1_ArchiveMenu {
     overflow: hidden;
     font-weight: 400}
 .tyard-komet a:hover {
-    color: $maincolor}
+    color: #007bfd}
 .tyard-komet {
     list-style: none;
     padding: 0}
@@ -1397,7 +1397,7 @@ select#BlogArchive1_ArchiveMenu {
     height: 30px;
     font-size: 11px;
     color: #fff;
-    background-color: $maincolor;
+    background-color: #007bfd;
     font-family: inherit;
     text-transform: uppercase;
     font-weight: 700;
@@ -1415,7 +1415,7 @@ select#BlogArchive1_ArchiveMenu {
 .FollowByEmail .follow-by-email-inner .follow-by-email-address:focus {
     border: 1px solid #FFF}
 .FollowByEmail .widget-content {
-    background-color: $maindarkcolor;
+    background-color: #fff;
     box-sizing: border-box;
     padding: 10px}
 .FollowByEmail .widget-content:before {
@@ -1441,13 +1441,13 @@ select#BlogArchive1_ArchiveMenu {
 .list-label-widget-content li a:before {
     content: '\f02c';
     font-size: 13px;
-    color: $maindarkcolor;
+    color: #fff;
     font-family: fontawesome;
     margin-right: 5px}
 .lowerbar .list-label-widget-content li a:before {
-    color: $maincolor}
+    color: #007bfd}
 .list-label-widget-content li a {
-    color: $maindarkcolor;
+    color: #fff;
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1455,9 +1455,9 @@ select#BlogArchive1_ArchiveMenu {
 .lowerbar .list-label-widget-content li a {
     color: #fff}
 .list-label-widget-content li a:hover {
-    color: $maincolor}
+    color: #007bfd}
 .list-label-widget-content li span: last-child {
-    color: $maindarkcolor;
+    color: #fff;
     font-size: 11px;
     font-weight: 700;
     position: absolute;
@@ -1468,7 +1468,7 @@ select#BlogArchive1_ArchiveMenu {
 .cloud-label-widget-content {
     text-align: left}
 .cloud-label-widget-content .label-count {
-    background: $maincolor;
+    background: #007bfd;
     color: #fff !important;
     margin-left: -3px;
     white-space: nowrap;
@@ -1486,7 +1486,7 @@ select#BlogArchive1_ArchiveMenu {
     transition: background .3s}
 .cloud-label-widget-content .label-size a,.cloud-label-widget-content .label-size span {
     height: 18px !important;
-    color: $maindarkcolor;
+    color: #fff;
     display: inline-block;
     font-size: 11px;
     font-weight: 700 !important;
@@ -1501,12 +1501,12 @@ select#BlogArchive1_ArchiveMenu {
     height: 30px !important;
     line-height: 19px !important}
 .cloud-label-widget-content .label-size:hover {
-    background: $maincolor;
+    background: #007bfd;
     color: #fff !important}
 .cloud-label-widget-content .label-size:hover a {
     color: #fff !important}
 .cloud-label-widget-content .label-size:hover span {
-    background: $maindarkcolor;
+    background: #fff;
     color: #fff !important;
     cursor: pointer}
 .cloud-label-widget-content .label-size-1,.label-size-2,.label-size-3,.label-size-4,.label-size-5 {
@@ -1578,7 +1578,7 @@ select#BlogArchive1_ArchiveMenu {
     line-height: 1.4em;
     transition: color .3s}
 .PopularPosts ul li a:hover {
-    color: $maincolor}
+    color: #007bfd}
 .PopularPosts .item-title {
     margin: 0 0 4px;
     padding: 0;
@@ -1630,7 +1630,7 @@ select#BlogArchive1_ArchiveMenu {
 .selectnav {
     width: auto;
     color: #fff;
-    background: $maindarkcolor;
+    background: #000;
     border: 1px solid rgba(255,255,255,0.1);
     position: relative;
     border: 0;
